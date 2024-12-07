@@ -1,15 +1,15 @@
 import model.UserService;
 import model.User;
 import model.Message;
-
+import model.MessageService;
 
 public class Main {
     public static void main(String[] args) {
         UserService userService = new UserService();
-        User[] users = userService.create4users();
+        User[] users = UserService.create4users();
 
         MessageService messageService = new MessageService();
-        Message[] messages = messageService.create4messages(users[0], users[1]);
+        Message[] messages = MessageService.create4messages(users[0], users[1]);
 
         System.out.println("Пользователи:");
         for(int i = 0; i < users.length; i++) {
