@@ -1,3 +1,5 @@
+package model;
+
 public class UserService {
 
     public User[] create4Users() {
