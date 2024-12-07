@@ -2,7 +2,7 @@ package model;
 
 public class UserService {
 
-    public User[] create4Users() {
+    public static User[] create4Users() {
         User[] users = new User[4];
         User first = new User("dont_know_who_I_am", "Соня", "+79120124565", "qwerty1234");
         users[0] = first;

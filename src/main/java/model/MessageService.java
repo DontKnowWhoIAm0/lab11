@@ -8,7 +8,7 @@ public class MessageService {
     - Текст
     - Дата-время
  */
-    public Message[] createMessage(User user1, User user2) {
+    public static Message[] create4Message(User user1, User user2) {
         Message[] messages = new Message[4];
         Message mes1 = new Message(user1, user2, "Привет!", "07.12.2024 9.53");
         messages[0] = mes1;
