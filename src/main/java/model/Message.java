@@ -1,24 +1,24 @@
 package model;
 
 public class Message {
-    private String sender;
-    private String recipient;
+    private User sender;
+    private User recipient;
     private String text;
     private String dataAndTime;
 
     public Message() {}
 
-    public Message(String sender, String recipient, String text, String dataAndTime) {
+    public Message(User sender, User recipient, String text, String dataAndTime) {
         this.sender = sender;
         this.recipient = recipient;
         this.text = text;
         this.dataAndTime = dataAndTime;
     }
 
-    public void setSender(String sender) {
+    public void setSender(User sender) {
         this.sender = sender;
     }
-    public void setRecipient(String recipient) {
+    public void setRecipient(User recipient) {
         this.recipient = recipient;
     }
     public void setText(String text) {
@@ -28,11 +28,11 @@ public class Message {
         this.dataAndTime = dataAndTime;
     }
 
-    public String getSender() {
+    public User getSender() {
         return sender;
     }
 
-    public String getRecipient() {
+    public User getRecipient() {
         return recipient;
     }
 
