@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Пользователи:");
         for(int i = 0; i < users.length; i++) {
-            System.out.println(users[i].getNickName());
+            System.out.println(" Nickname: " + users[i].getNickName() + " Имя пользователя: " + users[i].getUserName() + " Телефон: " + users[i].getPhoneNumber() + " Пароль: " + users[i].getPassWord());
         }
 
         System.out.println("Сообщения: ");
