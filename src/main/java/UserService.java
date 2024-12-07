@@ -1,11 +1,5 @@
 public class UserService {
 
-/*  ник нейм
-    - имя пользователя
-    - телефон
-    - пароль
-
- */
     public User[] create4Users() {
         User[] users = new User[4];
         User first = new User("dont_know_who_I_am", "Соня", "+79120124565", "qwerty1234");
