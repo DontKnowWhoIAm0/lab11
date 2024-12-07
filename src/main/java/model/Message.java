@@ -28,12 +28,12 @@ public class Message {
         this.dataAndTime = dataAndTime;
     }
 
-    public User getSender() {
-        return sender;
+    public String getSender() {
+        return sender.getNickName();
     }
 
-    public User getRecipient() {
-        return recipient;
+    public String getRecipient() {
+        return recipient.getNickName();
     }
 
     public String getText() {
