@@ -5,11 +5,11 @@ import model.MessageService;
 
 public class Main {
     public static void main(String[] args) {
-        UserService userService = new UserService();
-        User[] users = UserService.create4users();
+        //UserService userService = new UserService();
+        User[] users = UserService.create4Users();
 
-        MessageService messageService = new MessageService();
-        Message[] messages = MessageService.create4messages(users[0], users[1]);
+        //MessageService messageService = new MessageService();
+        Message[] messages = MessageService.create4Message(users[0], users[1]);
 
         System.out.println("Пользователи:");
         for(int i = 0; i < users.length; i++) {
