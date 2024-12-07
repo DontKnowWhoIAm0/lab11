@@ -18,7 +18,7 @@ public class Main {
 
         System.out.println("Сообщения: ");
         for(int i = 0; i < messages.length; i++) {
-            System.out.println("Отправитель"  + messages[i].getSender() + " Получатель " + messages[i].getRecipient() + " Текст " + messages[i].getText() + " Дата и Время " + messages[i].getDataAndTime());
+            System.out.println("Отправитель: "  + messages[i].getSender() + " Получатель: " + messages[i].getRecipient() + " Текст: " + messages[i].getText() + " Дата и Время: " + messages[i].getDataAndTime());
         }
     }
 }
